@@ -22,7 +22,10 @@ public class Nikolaus22 {
             System.out.println("Sack ist voll. Entferne zuerst Geschenke");
         } else {
             geschenkeSack[geschenkeImSack] = praesent;
-            geschenkeImSack++;
+
+            if(geschenkeImSack + 1 <= 9){
+                geschenkeImSack++;
+            }
         }
     }
 
