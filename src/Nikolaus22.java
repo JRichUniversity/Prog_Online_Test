@@ -18,11 +18,10 @@ public class Nikolaus22 {
     }
 
     void putPraesent(String praesent){
-        if(geschenkeImSack > 9){
+        if(geschenkeImSack == 9){
             System.out.println("Sack ist voll. Entferne zuerst Geschenke");
         } else {
             geschenkeSack[geschenkeImSack] = praesent;
-
             if(geschenkeImSack + 1 <= 9){
                 geschenkeImSack++;
             }
